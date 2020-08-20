@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#678987">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/musicboy"
+        >
+    </pl.droidsonroids.gif.GifImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Feel And Enjoy The Music"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_marginTop="50sp"
+        android:textStyle="bold"
+        android:textSize="20sp"></TextView>
+
+    <!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:gravity="center_horizontal"-->
+<!--        android:orientation="vertical">-->
+
+<!--        -->
+<!--        -->
+<!--&lt;!&ndash;        <ImageView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="@dimen/img_width_height"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="@dimen/img_width_height"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:src="@drawable/music" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="@string/slide_2_title"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textColor="@android:color/white"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textSize="@dimen/slide_title"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textStyle="bold" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginTop="20dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:paddingLeft="@dimen/desc_padding"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:paddingRight="@dimen/desc_padding"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="@string/slide_2_desc"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textAlignment="center"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textColor="@android:color/white"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textSize="@dimen/slide_desc"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:gravity="center_horizontal" />&ndash;&gt;-->
+
+<!--    </LinearLayout>-->
+</RelativeLayout>
